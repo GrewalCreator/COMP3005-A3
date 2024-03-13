@@ -1,0 +1,5 @@
+sql:
+  getAllStudents: SELECT * FROM students;
+  addStudent: INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES (%s, %s, %s, %s) ON CONFLICT (email) DO NOTHING;
+  updateStudentEmail: UPDATE students SET email = %s WHERE student_id = %s;
+  deleteStudent: DELETE FROM students WHERE student_id = %s;
