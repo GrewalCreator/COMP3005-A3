@@ -13,3 +13,6 @@ https://www.postman.com/telecoms-saganist-9479667/workspace/postconnect
 
 #### Note
 This project was developed on a clean Python v3.12 environment. Only these packages on this python verison have been tested.
+
+## Video
+https://youtu.be/n8PoQNg8Ryg
